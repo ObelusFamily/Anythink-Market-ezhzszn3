@@ -32,6 +32,8 @@ const ItemPreview = (props) => {
 
   // check for broken image
   let itemImage = item.image ? item.image : placeholder;
+  //option 2
+  // const itemImage = '/placeholder.png';
 
   return (
     <div
